@@ -1,0 +1,15 @@
+#creation project 
+$ cd project_directory
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+$ git remote add origin https://github.com/user/repo.git
+$ git push -u origin master
+#modification project
+git clone https://github.com/<your-username>/<repository-name>.git
+git checkout -b <branch-name>
+nano index.js
+git add index.js
+git commit -m "Modified index.js to fix a bug"
+git push origin <branch-name>
+#commentaire
